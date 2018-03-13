@@ -9,6 +9,7 @@ class MY_Controller extends CI_Controller{
         15=>0.6,
         30=>1.2
     );
+    // this could be good to move to some sort of config 
 
     public function __construct() {
         parent::__construct();
